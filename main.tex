@@ -87,7 +87,7 @@
 \begin{center}
 \begin{tabular}{c}
   \lsstyle
-  {\Huge Group 7}\\ 
+  {\Huge Team 7}\\ 
   Abdi Vicenciodelmoral $\bullet$ Benjamin Eavenson $\bullet$ Dwayne Butler \\
   Muniker Aragon $\bullet$ Pavel Roslyy $\bullet$ Trever Hibbs \\
 \end{tabular}
@@ -99,7 +99,7 @@
 % Example project entry
 %===Title Of Project===%
   \resumeSubHeadingListStart
-    \resumeSubheading{Title of Project}{}{technologies used}{short discription}
+    \resumeSubheading{Title of Project}{}{technologies used}{short description}
                      {start and end dates, i.e. August 2019 - August 2020}
     \resumeSubHeadingListStart
       \resumeSubItem{bold title of bullet1}{bullet 1}
@@ -107,8 +107,38 @@
       \resumeSubItem{bold title of bullet3}{bullet 3}
     \resumeSubHeadingListEnd
   \resumeSubHeadingListEnd
-  
 
+%===FTP system===%
+  \resumeSubHeadingListStart
+  \resumeSubheading{FTP Server Client System}{}{C, Linux}{Server and Client implementation of the FTP protocol}{}
+    \resumeSubHeadingListStart
+      \resumeSubItem{}{Designed FTP system that transfers binary data}
+      %TODO add technical details to bullet
+      \resumeSubItem{}{Durable design anticipates failure and responds gracefully}
+      \resumeSubItem{}{Uses low level C socket functions and linux system calls}
+    \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+
+%===Compression system===%
+  \resumeSubHeadingListStart
+    \resumeSubheading{LZW Encoder And Decoder}{}{C, Linux}{Implementation of LZW compression algorithm}{}
+    \resumeSubHeadingListStart
+      \resumeSubItem{}{Designed a system for the lossless compression of binary data}
+      \resumeSubItem{}{Considered efficiency of input and output by minimizing the number of writes required to encode/decode}
+      \resumeSubItem{}{Uses Low level C functions and manual memory management}
+    \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+                                      
+%===Interactive Resume Web-app===%
+  \resumeSubHeadingListStart
+  \resumeSubheading{Interactive Resume Web-app}{}{django, bootstrap4, css, html}{My resume displayed as a website}{}
+    \resumeSubHeadingListStart
+      \resumeSubItem{}{Designed a easily maintainable website with the model view controller model}
+      \resumeSubItem{}{Created a model system for generation of content through database row iteration}
+      \resumeSubItem{}{Utilized bootstrap 4 to create styling compatible with most screen sizes}
+    \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+  
 
 %-----------EXPERIENCE-----------------
 \section{\Large{\textbf{Relevant Experience}}}
@@ -154,12 +184,10 @@
     \item{
       \textbf{Languages}{: Python, C, PHP, HTML, CSS}
       \hfill
-      \textbf{Technologies}{: Linux, Git, Django, Bootstrap4}
+      \textbf{Technologies}{: Linux, Git, Django}
     }
     \item{
       \textbf{Web-Development}{: React, JavaScript, PHP, Django, HTML, CSS}
-      \hfill
-      \textbf{Technologies}
     }
   \resumeSubHeadingListEnd
 
