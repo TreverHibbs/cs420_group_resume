@@ -61,6 +61,14 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeExperienceSubheading}[5]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} #2 & #3 \\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubSubheading}[2]{
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
@@ -74,7 +82,7 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -110,114 +118,102 @@
 %-----------PROJECTS-----------------
 \section{\Large{\textbf{Projects}}}
 
+\resumeSubHeadingListStart
+
 % Example project entry
 %===Title Of Project===%
-  \resumeSubHeadingListStart
-    \resumeSubheading{Title of Project}{}{technologies used}{short description}
-                     {start and end dates, i.e. August 2019 - August 2020}
-    \resumeSubHeadingListStart
-      \resumeSubItem{bold title of bullet1}{bullet 1}
-      \resumeSubItem{bold title of bullet2}{bullet 2}
-      \resumeSubItem{bold title of bullet3}{bullet 3}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+%  \resumeSubheading{Title of Project}{}{technologies used}{short description}
+%                   {start and end dates, i.e. August 2019 - August 2020}
+%  \resumeItemListStart
+%    \resumeSubItem{bold title of bullet1}{bullet 1}
+%    \resumeSubItem{bold title of bullet2}{bullet 2}
+%    \resumeSubItem{bold title of bullet3}{bullet 3}
+%  \resumeItemListEnd
   
   
 %===MarketWatch application===%
-  \resumeSubHeadingListStart
   \resumeSubheading{MarketWatch}{\href{http://marketwatchfree.com/}{(link)}}{React,Nodejs, AWS}{Ecommerce Management System}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       \resumeSubItem{}{Develop a full-stack application to automate, monitor, and optimize online shopping.}
       %TODO add technical details to bullet
       \resumeSubItem{}{Implemented Oauth industry-standard protocol to manage user authorization and resource access.}
       \resumeSubItem{}{Developed scheduling system to update user products in short and effective time lapses.}
       \resumeSubItem{}{Launched application into production using AWS, nginx and DNS registering system.}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
 
 %===p_scrape===%
-  \resumeSubHeadingListStart
   \resumeSubheading{pscrape}{\href{https://github.com/munikeraragon/p_scrape}{(link)}}{React,Nodejs, AWS}{High level Web Scraping Utility}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       %TODO add technical details to bullet
       \resumeSubItem{}{Developed a Web-Scraping server to process and manage web scraping requests.}
       \resumeSubItem{}{Implemented proxies and user-agent rotation to improve scraping performance.}
       \resumeSubItem{}{Wrote scripts to automate the maintenance and updates of user-agents and proxies in the database.}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
   
 %===FTP system===%
-  \resumeSubHeadingListStart
   \resumeSubheading{FTP Server Client System}{}{C, Linux}{Server and Client implementation of the FTP protocol}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       \resumeSubItem{}{Designed FTP system that transfers binary data}
       %TODO add technical details to bullet
       \resumeSubItem{}{Durable design anticipates failure and responds gracefully}
       \resumeSubItem{}{Uses low level C socket functions and linux system calls}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
 
 %===Compression system===%
-  \resumeSubHeadingListStart
-    \resumeSubheading{LZW Encoder And Decoder}{}{C, Linux}{Implementation of LZW compression algorithm}{}
-    \resumeSubHeadingListStart
+  \resumeSubheading{LZW Encoder And Decoder}{}{C, Linux}{Implementation of LZW compression algorithm}{}
+    \resumeItemListStart
       \resumeSubItem{}{Designed a system for the lossless compression of binary data}
       \resumeSubItem{}{Considered efficiency of input and output by minimizing the number of writes required to encode/decode}
       \resumeSubItem{}{Uses Low level C functions and manual memory management}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
                                       
 %===Resume Web-app===%
-  \resumeSubHeadingListStart
   \resumeSubheading{Resume Web-app}{\href{http://www.treverhibbs.com/}{(link)}}{django, bootstrap4, css, html}{My resume displayed as a website}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       \resumeSubItem{}{Designed a easily maintainable website with the model view controller model}
       \resumeSubItem{}{Created a model system for generation of content through database row iteration}
       \resumeSubItem{}{Utilized bootstrap 4 to create styling compatible with most screen sizes}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
 
 %===CI club website===%
-  \resumeSubHeadingListStart
   \resumeSubheading{Computer Integration Club Website}{\href{http://www6.encs.vancouver.wsu.edu/}{(link)}}{php, css, html, sql}{Website for a University club}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       \resumeSubItem{}{Designed a css system that made full use of css grid, css flex box, and utility classes}
       \resumeSubItem{}{Created secure php enabled web form}
       \resumeSubItem{}{Made heavy use of git for team coordination including the maintenance of several git branches and the resolution of merge conflicts}
       \resumeSubItem{}{Designed database schema with mysql}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
 
 %===B+ Tree Visualization Tool===%
-  \resumeSubHeadingListStart
   \resumeSubheading{B+ Tree Visualization Tool}{\href{https://github.com/TreverHibbs/BPlusTree}{(link)}}{js, css, html}{A web app for the dynamic visualization of the B+ Tree data structure and its algorithms}{}
-    \resumeSubHeadingListStart
+    \resumeItemListStart
       \resumeSubItem{}{Designed the architecture of a view component of a model, view, controller web app}
       \resumeSubItem{}{Created a view module that renders a B+ Tree data structure algorithm}
       \resumeSubItem{}{Made heavy use of JavaScript's functional programming paradigm}
       \resumeSubItem{}{Tested JavaScript functions with mocha and chai frameworks}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{\Large{\textbf{Relevant Experience}}}
 
   \resumeSubHeadingListStart
-    \resumeSubheading
-    {Computer Integration Club} {\href{http://www6.encs.vancouver.wsu.edu/}{(link)}}{Washington State University}
-    {}{August 2019 - Present}
-      \resumeSubHeadingListStart
-		\resumeItem{Full Stack Web Development}{Designed and implemented all front-end and back-end systems for club website.}
+    \resumeExperienceSubheading
+    {Computer Integration Club}{\href{http://www6.encs.vancouver.wsu.edu/}{(link)}}{Washington State University}
+    {Vice President}{August 2019 - Present}
+      \resumeItemListStart
+		    \resumeItem{Full Stack Web Development}{Designed and implemented all front-end and back-end systems for club website.}
         \resumeItem{Website Hosting With Apache}{Setup Apache, Git, SQL, and created classes for communication between PHP, the database, and  front end template engine.}
         \resumeItem{Secure Login and Database}{Utilized encryption algorithms to generate password hashes and used back-end validation techniques to prevent SQL injection to keep self developed login system secure.}
         \resumeItem{Team Development}{Identified key features of site to create tasks for each member to coordinate development.}
-      \resumeSubHeadingListEnd
+      \resumeItemListEnd
       
-    \resumeSubheading
+    \resumeExperienceSubheading
     {CIMLS} {\href{https://www.cimls.com/}{(link)}}{e1Solutions}
-    {}{July 2017 - Present}
-      \resumeSubHeadingListStart
+    {Intern}{July 2017 - Present}
+      \resumeItemListStart
         \resumeItem{RESTful backend}{Developed class to integrate Census Bureau API for demographics system on site.}
         \resumeItem{Daily Cron Jobs}{Created cron scripts to maintain site and document site statistics.}
         \resumeItem{Google Recaptcha}{Developed class to integrate Google Recaptcha V3 into forms across the site to prevent bot access.}
@@ -225,39 +221,36 @@
         \resumeItem{Development of ccrealtygroup}{Setup git, database, and backend libraries to make code base modular and reusable.}
         \resumeItem{Overhaul JS Minification}{Wrote Makefile to minifiy JavaScript files using Google Closure Compiler with advanced optimizations.}
         \resumeItem{Improve Payment System}{Redesigned the payment system, and switched the payment processor to Stripe.}
-      \resumeSubHeadingListEnd
+        \resumeItem{Database Optimization}{Reduced page loading times by improving SQL queries and table indexes.}
+      \resumeItemListEnd
   
-    \resumeSubheading
-    {Software Engineer Internship}  {}{The Freshwater Trust}
-    {}{July 2020  - Present}
-       \resumeSubHeadingListStart
+    \resumeExperienceSubheading
+    {Software Engineer Internship}{}{The Freshwater Trust}
+    {Intern}{July 2020  - Present}
+       \resumeItemListStart
     		\resumeItem{Mentoring}{Contributed software engineering expertise to an Analytics team.}
     		\resumeItem{Full-stack Web Application}{Assisted in development using Node.js, React.js, and Mapbox to support the decision making of potential investors.}
          \resumeItem{Server and UI Development}{Developed application for data maintenance of a database system.} 
          \resumeItem{Refined Methodologies}{Refinements in System Design, Containerized Applications, and Software Documentation enhanced the readability and maintenance of software.}
-       \resumeSubHeadingListEnd
+       \resumeItemListEnd
 
-    \resumeSubheading
+    \resumeExperienceSubheading
     {Summer Research Internship}  {}{Washington State University}
-    {}{May 2019 - August 2019}
-       \resumeSubHeadingListStart
+    {Intern}{May 2019 - August 2019}
+       \resumeItemListStart
          \resumeItem{Deadlocking Research}{Contributed to research aimed at determining whether computer processes can be accurately classified as being "deadlocked".}
          \resumeItem{Data Extraction and Manipulation}{Extracted and manipulated data of computational processes, based on CPU usage. }
          \resumeItem{95\% Accurate Machine Learning Model}{Constructed the model that consumed extracted data to output classification predictions.}
-       \resumeSubHeadingListEnd
+       \resumeItemListEnd
 
 %== ACM-W Club ==%
-    \resumeSubheading
+    \resumeExperienceSubheading
     {ACM-W Club}{}{Washington State University}
     {Vice President}{August 2019 - Present}
-      \resumeSubHeadingListStart
-        \resumeItem{Python Boot-camp}
-        {Contributed to the creation of a curriculum covering the basic features of python}
-        \resumeItemListStart
-        \resumeItem{}{Created slides explaining pythons mutation feature}
-      \resumeSubHeadingListEnd
-      \resumeItem{Meeting leader}{Gave lectures on security topics and guided club members through practical examples}
-      \resumeItem{Vice Presidency}{As long time member elected vice president for 2020 school year}  
+      \resumeItemListStart
+        \resumeItem{Python Boot-camp}{Contributed slides on mutation to a curriculum covering the basic features of python}
+        \resumeItem{Meeting leader}{Gave lectures on security topics and guided club members through practical examples}
+        \resumeItem{Vice Presidency}{As long time member elected vice president for 2020 school year}  
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
