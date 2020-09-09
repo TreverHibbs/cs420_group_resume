@@ -15,6 +15,8 @@
 \usepackage{tabularx}
 \usepackage[letterspace=150]{microtype}
 \usepackage{hyperref}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
 
 %font
 \usepackage[familydefault,light]{Chivo} %% Option 'familydefault' only if the base font of the document is to be sans serif
@@ -107,16 +109,15 @@
 
   \resumeSubHeadingListStart
     \item[]{
-      \textbf{Languages}{: Python, C, Java, Javascript, PHP}
+      \textbf{Languages}{: JavaScript, Python, Go, C, Java, PHP}
       \hfill
-      \textbf{Technologies}{: Linux, Git, Make, SQL, Docker}
+      \textbf{Technologies}{: Linux, Docker, Git, SQL, Make, Apache, Nginx}
     }
     \item[]{
-      \textbf{Web-Development}{: PHP, HTML, CSS, JavaScript, React, Django, Smarty}
+      \textbf{Web-Development}{: React, Node.js, PHP, Django, HTML, CSS, Smarty}
     }
   \resumeSubHeadingListEnd
-
-
+ 
 %%%%%%%%%%-----------EXPERIENCE-----------------%%%%%%%%%%
 \section{\Large{\textbf{Relevant Experience}}}
 
@@ -209,13 +210,22 @@
     \resumeItemListEnd
 
 %===p_scrape===%
-  \resumeSubheading{pscrape}{\href{https://github.com/munikeraragon/p_scrape}{(link)}}{React, Nodejs, AWS}{High Level Web Scraping Utility}{}
+  \resumeSubheading{pscrape}{\href{https://github.com/munikeraragon/p_scrape}{(link)}}{Django, AWS}{High Level Web Scraping Utility}{}
     \resumeItemListStart
       %TODO add technical details to bullet
       \resumeSubItem{}{Developed a web scraping server to process and manage web scraping requests}
       \resumeSubItem{}{Implemented proxies and user-agent rotation to improve scraping performance}
       \resumeSubItem{}{Wrote scripts to automate the maintenance and updates of user-agents and proxies in the database}
     \resumeItemListEnd
+    
+%===CI club website===%
+  \resumeSubheading{Computer Integration Club Website}{\href{http://www6.encs.vancouver.wsu.edu/}{(link)}}{php, css, html, sql}{University Club Website}{}
+  \resumeItemListStart
+    \resumeSubItem{}{Designed a css system utilizing css grid, css flex box, and utility classes}
+    \resumeSubItem{}{Created secure php enabled web forms}
+    \resumeSubItem{}{Setup and used git for team coordination}
+  \resumeSubItem{}{Designed database schemas in SQL}
+  \resumeItemListEnd
 
 %===Resume Web-app===%
   \resumeSubheading{Resume Web-app}{\href{http://www.treverhibbs.com/}{(link)}}{django, bootstrap4, css, html}{Personal Portfolio Website}{}
@@ -225,14 +235,6 @@
     \resumeSubItem{}{Utilized bootstrap 4 to create styling compatible with most screen sizes}
   \resumeItemListEnd
 
-%===CI club website===%
-  \resumeSubheading{Computer Integration Club Website}{\href{http://www6.encs.vancouver.wsu.edu/}{(link)}}{php, css, html, sql}{University Club Website}{}
-  \resumeItemListStart
-    \resumeSubItem{}{Designed a css system utilizing css grid, css flex box, and utility classes}
-    \resumeSubItem{}{Created secure php enabled web forms}
-    \resumeSubItem{}{Setup and used git for team coordination}
-  \resumeSubItem{}{Designed database schemas in SQL}
-  \resumeItemListEnd
   
 %===B+ Tree Visualization Tool===%
   \resumeSubheading{B+ Tree Visualization Tool}{\href{https://github.com/TreverHibbs/BPlusTree}{(link)}}{js, css, html}{Web App For B+ Tree Algorithm Visualization}{}
