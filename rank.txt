@@ -1,0 +1,10 @@
+Top Three:
+Project 2: HP Project utilizing their PrintOS. Focus on tracking print jobs. Includes Java, AWS, PrintOS, GraphQL, Go lang. 
+Project 4: Autolab project working on contributing to WSUV's git branch. Includes Ruby, python, bash, docker, javascript. 
+Project 7: Patent Software outward facing web app/website which enables users to access the various tools in a software-as-a-service model. 
+
+
+B-List:
+Project 1: HP Project utilizing their PrintOS system and AWS IoT Core. Includes AWS, Java, PrintOS. 
+Project 5: Examine current testing frameworks in Autolab, improving the development and deployment. Includes python, java, docker. 
+Project 8: Virtual Reality microfabrication module to be simulated preliminarily by virtual reality and demonstrated by computer or smartphone. 
